@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*font-family: "Oswald", sans-serif; */
+  /* font-family: "Raleway", sans-serif; */
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Be Vietnam Pro", sans-serif;
+  /* font-family: "Lilita One", sans-serif; */
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --primary: #eebf00;
+  --secondary: #232b38;
+  --ternary: #6c6c6c;
+  --danger: #fe4545;
+  --pure: #fefefe;
+  --light: #f0f0f0;
+  --heaven: #ffffff;
+  --footer: #b1b700;
+}
+.container {
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1152px;
+  }
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Poppins", sans-serif !important;
+}
+/* utility class */
+.flex {
+  display: flex;
+}
+.justify_between {
+  justify-content: space-between;
+}
+.item_center {
+  align-items: center;
+}
+.justify_center {
+  justify-content: center;
+}
+.grid {
+  display: grid;
+}
+.grid_two_span {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid_three_span {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid_four_span {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-two--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-three--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-three-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-four--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-four-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.section_heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+.text-center {
+  text-align: center;
+}
+.btn {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+}
+.logo{
+    font-family: "Lilita One", sans-serif;
+    cursor: pointer;
+}
