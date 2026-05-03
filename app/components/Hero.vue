@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="hero_section">
     <div class="flex flex-row mt-7">
       <div class="basis-1/2 overflow-hidden ">
-        <img class="w-[80%] rounded-lg" src="../assets/images/heroimage.png" alt="">
+        <img class="w-[80%] h-[90%] object-cover rounded-lg" src="../assets/images/heroimage.png" alt="">
       </div>
       <div class="basis-1/2">
         <h1 class="hero_title text-7xl uppercase">Hey, I'm a Web - Developer</h1>
