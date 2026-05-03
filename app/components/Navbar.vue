@@ -4,13 +4,13 @@
     <div class="logo font-bold text-2xl">Webdev</div>
     <nav>
       <ul class="flex items-center justify-center gap-4">
-        <li><NuxtLink class="hover:text-sky-500 px-2 font-semibold" to="/">Home</NuxtLink></li>
-        <li><NuxtLink class="hover:text-sky-500 px-2 font-semibold" to="/about">About</NuxtLink></li>
-        <li><NuxtLink class="hover:text-sky-500 px-2 font-semibold" to="/services">Services</NuxtLink></li>
-        <li><NuxtLink class="hover:text-sky-500 px-2 font-semibold" to="/works">Works</NuxtLink></li>
+        <li><NuxtLink class="transition-all ease-in hover:text-sky-500 px-2 font-semibold" to="/">Home</NuxtLink></li>
+        <li><NuxtLink class="transition-all ease-in hover:text-sky-500 px-2 font-semibold" to="/about">About</NuxtLink></li>
+        <li><NuxtLink class="transition-all ease-in hover:text-sky-500 px-2 font-semibold" to="/services">Services</NuxtLink></li>
+        <li><NuxtLink class="transition-all ease-in hover:text-sky-500 px-2 font-semibold" to="/works">Works</NuxtLink></li>
       </ul>
     </nav>
-    <button @click="navigateTo('/contact')" class="bg-black rounded-[20px] text-gray-100 py-2 px-5 hover:text-sky-600">Contact Me</button>
+    <button @click="navigateTo('/contact')" class="transition-all ease-in border-transparent border bg-black rounded-[20px] text-gray-100 py-1 px-5 hover:text-sky-500 hover:bg-transparent hover:border-black hover:border-solid hover:border">Contact Me</button>
   </div>
 </div>
 </template>
