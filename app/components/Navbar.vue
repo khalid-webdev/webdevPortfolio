@@ -1,7 +1,7 @@
 <template>
   <div class="shadow-md  py-4">
   <div class="container flex items-center justify-between">
-    <div class="logo font-bold text-2xl">Webdev</div>
+    <div class="logo font-bold text-2xl">Khalid</div>
     <nav>
       <ul class="flex items-center justify-center gap-4">
         <li><NuxtLink class="transition-all ease-in hover:text-sky-500 px-2 font-semibold" to="/">Home</NuxtLink></li>

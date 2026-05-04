@@ -1,8 +1,9 @@
 <template>
   <div>
-  <Navbar/>
-  <div class="container">
-    <slot/>
+    <Navbar />
+    <!-- Slots -->
+    <slot />
+    <div class="h-[500px]"></div>
   </div>
-  </div>
+
 </template>

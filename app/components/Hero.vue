@@ -1,6 +1,6 @@
 <template>
-  <div class="hero_section">
-    <div class="flex flex-row mt-7">
+  <div class="container hero_section">
+    <div class="flex flex-row mt-10">
       <div class="basis-1/2 overflow-hidden ">
         <img class="w-[80%] h-[90%] object-cover rounded-lg" src="../assets/images/heroimage.png" alt="">
       </div>
