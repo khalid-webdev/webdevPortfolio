@@ -7,5 +7,7 @@
     <SkillsBanner/>
     <AboutMe/>
     <MyWorks/>
+    <MyProjects/>
+
   </div>
 </template>
