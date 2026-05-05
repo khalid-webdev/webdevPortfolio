@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 </script>
 
 <template>
@@ -7,5 +6,6 @@
     <Hero/>
     <SkillsBanner/>
     <AboutMe/>
+    <MyWorks/>
   </div>
 </template>

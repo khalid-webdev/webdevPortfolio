@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="about mt-[5rem]">
+  <div class="about py-[5rem]">
     <div class="container">
       <h1 class="heading text-7xl uppercase mb-5">About me</h1>
       <div class="flex flex-col items-end">
