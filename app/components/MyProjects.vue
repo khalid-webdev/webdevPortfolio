@@ -1,5 +1,48 @@
 <script setup lang="ts">
-
+const projects = ref([
+  {
+    id: 1,
+    title: "Shoe Store",
+    description: "I have done this awesome ecommerce website in the recent time...",
+    url: "/images/1.jpg",
+    projectLink: ""
+  },
+  {
+    id: 2,
+    title: "OnlineShop",
+    description: "I have done this awesome ecommerce website in the recent time...",
+    url: "/images/2.jpg",
+    projectLink: ""
+  },
+  {
+    id: 3,
+    title: "Shoe Store",
+    description: "I have done this awesome ecommerce website in the recent time...",
+    url: "/images/3.png",
+    projectLink: ""
+  },
+  {
+    id: 4,
+    title: "Shoe Store",
+    description: "I have done this awesome ecommerce website in the recent time...",
+    url: "/images/4.png",
+    projectLink: ""
+  },
+  {
+    id: 5,
+    title: "Shoe Store",
+    description: "I have done this awesome ecommerce website in the recent time...",
+    url: "/images/5.jpg",
+    projectLink: ""
+  },
+  {
+    id: 6,
+    title: "Shoe Store",
+    description: "I have done this awesome ecommerce website in the recent time...",
+    url: "/images/6.jpg",
+    projectLink: ""
+  },
+])
 </script>
 
 <template>
@@ -12,14 +55,8 @@
       </div>
 
       <div class="flex-wrap flex justify_between gap-8">
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
+       <ProjectCard v-for="project in projects" :key="project.id" :project="project" :imageUrl="project.url" />
       </div>
-
     </div>
   </div>
 </template>

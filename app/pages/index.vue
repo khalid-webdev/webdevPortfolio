@@ -8,6 +8,6 @@
     <AboutMe/>
     <MyWorks/>
     <MyProjects/>
-
+    <Footer/>
   </div>
 </template>
